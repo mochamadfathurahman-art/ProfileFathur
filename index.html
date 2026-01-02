@@ -417,6 +417,40 @@
 .project-card h3{
   color:#60a5fa;
 }
+    /* ============ PROJECT CARD STYLE (PC & MOBILE) ============ */
+.project-card{
+  background:#020617;
+  border:1px solid #1e293b;
+  border-radius:20px;
+  padding:10px;
+  transition:.4s ease;
+  position:relative;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.project-card::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg,transparent,#60a5fa);
+  opacity:.05;
+}
+
+.project-card:hover{
+  transform:translateY(-15px);
+  box-shadow:0 20px 50px rgba(96,165,250,.4);
+}
+
+.project-card h3{
+  color:#60a5fa;
+  margin-bottom:10px;
+}
+
+.project-card p{
+  opacity:.9;
+}
+
 
 
 
