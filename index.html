@@ -366,6 +366,32 @@
     display:flex;
   }
 }
+    /* ============ ABOUT MOBILE LAYOUT ============ */
+@media (max-width:768px){
+  #about .box{
+    grid-template-columns:1fr;
+    padding:35px 25px;
+    text-align:center;
+  }
+
+  .about-photo{
+    order:-1;
+    margin-bottom:25px;
+  }
+
+  .about-photo img{
+    max-width:180px;
+    border-radius:50%;
+    border:5px solid #60a5fa;
+    box-shadow:0 0 25px rgba(96,165,250,.6);
+  }
+
+  #about p{
+    text-align:center;
+    font-size:1rem;
+  }
+}
+
 
 
   </style>
